@@ -1,8 +1,8 @@
 const colorsChoice = document.querySelector('#colorsChoice')
 const game = document.querySelector('#game')
 const cursor = document.querySelector("#cursor")
-game.width = 1200
-game.height = 1200
+game.width = 1020
+game.height = 990
 const gridCellSize = 30
 
 const ctx = game.getContext('2d')
@@ -74,7 +74,7 @@ game.addEventListener('click', function () {
 
 function drawGrids(ctx, width, height, cellWidth, cellHeight) {
     ctx.beginPath()
-    ctx.strokeStyle = "#000"
+    ctx.strokeStyle = "#fff"
 
     for (let i = 0; i < width; i++) {
         ctx.moveTo(i * cellWidth, 0)

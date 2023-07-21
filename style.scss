@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+body,
+html {
+    background-color: rgb(59, 58, 58);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+
+}
+
 body {
     margin: 0;
-    background-color: rgb(59, 58, 58);
-    overflow-y: hidden;
-    overflow-x: hidden;
-    position: fixed;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    border: none;
+    user-select: none;
+}
+
+body {
+    display: block;
+    margin: 8px;
 }
 
 h1 {
@@ -15,11 +32,13 @@ h1 {
 }
 
 #game {
-    background-color: rgb(255, 255, 255);
-    width: 1200px;
-    height: 1200px;
+
+    background-color: #fff;
+    width: 1020px;
+    height: 990px;
     box-shadow: 1px 1px 10px -5px rgba($color: #000000, $alpha: 0.5);
     cursor: none;
+
 }
 
 #colorsChoice {
@@ -37,7 +56,7 @@ h1 {
         border: 1px solid transparent;
         transition: all .3s;
         cursor: pointer;
-        display: flex;
+        display: block;
         justify-content: center;
         align-items: center;
         color: #fff;
