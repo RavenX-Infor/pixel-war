@@ -26,12 +26,6 @@ body {
   margin: 8px;
 }
 
-h1 {
-  color: #ff5a5f;
-  font-family: "VT323", monospace;
-  font-size: 4em;
-}
-
 #game {
   background-color: #fff;
   width: 1020px;
