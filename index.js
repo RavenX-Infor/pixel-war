@@ -2,7 +2,7 @@ const colorsChoice = document.querySelector('#colorsChoice')
 const game = document.querySelector('#game')
 const cursor = document.querySelector("#cursor")
 game.width = 1200
-game.height = 600
+game.height = 1200
 const gridCellSize = 30
 
 const ctx = game.getContext('2d')
